@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prathamesh - Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <header>
+        <nav>
+        <div class="left">Prathamesh's Protfolio</div>
+        <div class="right">
+            <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="https://github.com/prathamesh-24">Projects</a></li>
+            <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+        <div class="leftsection">
+            Hi, My name is <span class="purple">Pratham</span>
+            <div>and I am passionate</div>
+            <span id="element"></span>
+            <br>
+            <button class = 'btn'>Download Resume</button>
+            <button class = 'btn'>Visit Github</button>
+        </div>
+        <div class="rightsection">
+            <img src="final.png" />
+        </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Education Qualification</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class = 'image-top' src="college.png" alt="">
+                <div class="vertical-title">
+                    <strong>B.Tech (CGPA:8.23)</strong> 
+                </div>
+                <div class="vertical-dec">
+                    Nutan College of Engineering and Research (2020-2024)
+                    <br>Talegaon, Maharashtra
+                </div>
+            </div>
+            <div class="vertical">
+                <img class = 'image-top' src="school.png" alt="" >
+                <div class="vertical-title">
+                    <strong>HSC (Pct:65%)</strong>
+                </div>
+                <div class="vertical-dec">
+                    MIT VGS Gurukul Junior College <br>(2019-2020)
+                    <br>Talegaon, Maharashtra
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="school.jpeg" alt="" class="image-top">
+                <div class="vertical-title">
+                    <strong>SCC (Pct:68%)</strong>
+                </div>
+                <div class="vertical-dec">
+                    Suman Ramesh Tulsiani School<br> (2017-2018)
+                    <br>Kamshet, Maharashtra
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Pratham's Protfolio Website
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                    <li>Certificate</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; pratham's_protfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+        strings: [
+            "Frontend Developer.",
+            "Data Analyst.",
+            "ML Engineer.",
+            "Data Scientist.",
+        ],
+        typeSpeed: 50,
+        });
+    </script>
+    </body>
+</html>

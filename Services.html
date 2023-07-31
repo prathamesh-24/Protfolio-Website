@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh - Protofolio Service</title>
+    <link rel="stylesheet" href="Service.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="left">Prathamesh's Protfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <section class="main">
+            
+                Hi, My name is <span class="purple">Pratham</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <br>
+                <button class = 'btn'>Download Resume</button>
+                <button class = 'btn'>Visit Github</button>
+            </section>
+        </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+        strings: [
+            "Frontend Developer.",
+            "Data Analyst.",
+            "ML Engineer.",
+            "Data Scientist.",
+        ],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
